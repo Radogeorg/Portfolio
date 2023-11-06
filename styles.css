@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: red;
+}
+
+nav {
+  background-color: black;
+  position: fixed;
+  width: 20vw;
+  height: 100vh;
+}
+
+section {
+  height: 300px;
+  width: 80vw;
+  max-width: 80%;
+  float: right;
+}
+
+section:nth-child(odd) {
+  background-color: yellow;
+}
