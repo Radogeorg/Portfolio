@@ -33,3 +33,13 @@ section {
 section:nth-child(odd) {
   background-color: yellow;
 }
+
+/* li::before {
+  content: "here is before";
+  color: white;
+}
+
+li::after {
+  content: "here is after";
+  color: white;
+} */
