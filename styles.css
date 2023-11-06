@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+:root {
+  --nav-width: 20%;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -16,14 +20,13 @@ body {
 nav {
   background-color: black;
   position: fixed;
-  width: 20vw;
+  width: var(--nav-width);
   height: 100vh;
 }
 
 section {
   height: 300px;
-  width: 80vw;
-  max-width: 80%;
+  width: calc(100% - var(--nav-width));
   float: right;
 }
 
