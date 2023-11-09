@@ -58,4 +58,17 @@ li::after {
   display: inline-block;
   font-size: 1.25rem;
   letter-spacing: 0.125rem;
+  margin-top: 1.5rem;
 } 
+
+#professionalprojects {
+  background-color: #222426;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#professionalprojects > .section-container {
+  width: 80%;
+  height: 80%;
+}
